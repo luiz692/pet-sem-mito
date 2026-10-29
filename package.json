@@ -1,0 +1,24 @@
+{
+  "name": "pet-sem-mito",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pet sem Mito: site educativo e votação ao vivo de mito ou verdade sobre a saúde dos pets",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "pg": "^8.16.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "optionalDependencies": {
+    "@electric-sql/pglite": "^0.3.0"
+  }
+}
