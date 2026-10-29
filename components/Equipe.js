@@ -10,7 +10,7 @@ function BotaoConfirmar({ children, confirmar, aoConfirmar, classe = 'botao bota
   const [armado, setArmado] = useState(false);
   useEffect(() => {
     if (!armado) return undefined;
-    const t = setTimeout(() => setArmado(false), 4000);
+    const t = setTimeout(() => setArmado(false), 6000);
     return () => clearTimeout(t);
   }, [armado]);
   return (
