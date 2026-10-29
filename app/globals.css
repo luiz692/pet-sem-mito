@@ -1584,7 +1584,7 @@ fieldset {
 }
 
 .telao__logo {
-  width: min(62vh, 40vw);
+  width: min(56vh, 40vw);
   aspect-ratio: 1;
   border-radius: 50%;
 }
@@ -1681,7 +1681,7 @@ fieldset {
 }
 
 .telao__qr--grande {
-  width: min(56vh, 36vw);
+  width: min(48vh, 34vw);
 }
 
 .telao__chamada {
